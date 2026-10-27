@@ -29,7 +29,7 @@ dep_libvorbis=(libogg)
 if [ -n "${ENCODERS_GPL+x}" ]; then
 	dep_ffmpeg=(mbedtls dav1d libxml2 libvorbis libvpx libx264)
 else
-	dep_ffmpeg=(mbedtls dav1d libxml2)
+	dep_ffmpeg=(mbedtls dav1d libxml2 libvpx)
 fi
 dep_freetype2=()
 dep_fribidi=()

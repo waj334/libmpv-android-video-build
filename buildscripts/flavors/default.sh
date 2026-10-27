@@ -51,7 +51,6 @@ cpuflags=
 	--disable-postproc \
 	--disable-programs \
 	--disable-gray \
-	--disable-swscale-alpha \
 	\
 	--enable-jni \
 	--enable-bsfs \
@@ -73,6 +72,7 @@ cpuflags=
 	--enable-mbedtls \
 	\
 	--enable-libdav1d \
+	--enable-libvpx \
 	\
 	--enable-libxml2 \
 	\
@@ -99,6 +99,8 @@ cpuflags=
 	--enable-decoder=hevc* \
 	--enable-decoder=av1* \
 	--enable-decoder=libdav1d \
+	--enable-decoder=libvpx_vp8 \
+	--enable-decoder=libvpx_vp9 \
 	--enable-decoder=theora \
 	--enable-decoder=msmpeg* \
 	--enable-decoder=mjpeg* \
